@@ -1,1 +1,1 @@
-Welcome! Always use Git when working on configsgit branch -M main
+Welcome! Always use Git when working on configs!!
