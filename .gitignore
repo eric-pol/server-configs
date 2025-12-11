@@ -1,0 +1,22 @@
+# --- Systeem specific trash ---
+.DS_Store
+Thumbs.db
+
+# --- DANGEROUS FILES (NEVER COMMIT!!) ---
+# Exclude specific files that may end up in files/ by accident
+files/etc/shadow
+files/etc/gshadow
+files/etc/sudoers.d/*
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+
+# Database configs with passwords (be specific)
+files/etc/mysql/debian.cnf
+
+# --- Temporary files ---
+*.log
+*.bak
+*.tmp
+*.swp
