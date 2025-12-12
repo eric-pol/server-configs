@@ -12,7 +12,9 @@
 # /boot/efi was on /dev/nvme0n1p1 during curtin installation
 /dev/disk/by-uuid/2AAA-7EB2 /boot/efi vfat defaults 0 1
 /swap.img	none	swap	sw	0	0
-# Mount partition sda1 ext_storbox on external USB drive sda
+# Mount partition sda1 ext_storbox on external USB drive sda (Intenso)
 /dev/disk/by-uuid/1d493bb7-e538-4f97-a765-5888e721436f /mnt/data ext4 defaults 0 2
-# Mount partitions sda2 ext_backup on external USB drive sda
+# Mount partitions sda2 ext_backup on external USB drive sda (Intenso)
 /dev/disk/by-uuid/d3e4c391-5ccc-424e-8c80-de0a52889574 /mnt/backup ext4 defaults 0 2
+# Mount partition sdb1 to nas1 on external USB drive sdb (WD Elements)
+/dev/disk/by-uuid/5dfb9ab1-465c-49ca-ae05-e621075c353b /mnt/nas1 ext4 defaults 0 2
